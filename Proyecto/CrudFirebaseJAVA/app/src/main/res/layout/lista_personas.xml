@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="15dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lblNombres"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Nombres:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/nombres"
+        android:textSize="20sp"
+        android:text="xxxx:"
+        android:paddingLeft="5dp"
+        android:layout_toRightOf="@+id/lblNombres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/lblTelefono"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Telefono:"
+        android:layout_below="@id/lblNombres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/telefono"
+        android:textSize="20sp"
+        android:text="123456789:"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/lblNombres"
+        android:layout_toRightOf="@+id/lblTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/lblFechaRegistro"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Fecha. Reg:"
+        android:layout_below="@id/lblTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/fecharegistro"
+        android:textSize="15sp"
+        android:text="2020-11-02 21:22:13"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/lblTelefono"
+        android:layout_toRightOf="@+id/lblFechaRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
